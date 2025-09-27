@@ -25,9 +25,15 @@ export const Header = () => {
           </a>
         </nav>
         
-        <Button variant="hero" size="lg">
-          Agende sua consulta
-        </Button>
+        <a
+          href="https://wa.me/5511921572675?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+jur%C3%ADdica!"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button variant="hero" size="lg">
+            Agende sua consulta
+          </Button>
+        </a>
       </div>
     </header>
   );

@@ -68,9 +68,15 @@ export const PracticeAreas = () => {
         </div>
         
         <div className="text-center">
-          <Button variant="cta" size="lg">
-            Saiba mais sobre cada área
-          </Button>
+          <a
+            href="https://wa.me/5511921572675?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+as+%C3%A1reas+de+atua%C3%A7%C3%A3o."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button variant="cta" size="lg">
+              Saiba mais sobre cada área
+            </Button>
+          </a>
         </div>
       </div>
     </section>

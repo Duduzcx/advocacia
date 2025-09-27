@@ -17,12 +17,24 @@ export const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-              Agende sua consulta
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-white/20 border-white/50 text-white hover:bg-white/30 hover:border-white/70">
-              Saiba mais
-            </Button>
+            <a
+              href="https://wa.me/5511921572675?text=Ol%C3%A1%2C+gostaria+de+agendar+uma+consulta+jur%C3%ADdica!"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
+                Agende sua consulta
+              </Button>
+            </a>
+            <a
+              href="https://wa.me/5511921572675?text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+os+servi%C3%A7os+jur%C3%ADdicos."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-white/20 border-white/50 text-white hover:bg-white/30 hover:border-white/70">
+                Saiba mais
+              </Button>
+            </a>
           </div>
         </div>
         

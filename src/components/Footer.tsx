@@ -53,10 +53,10 @@ export const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-accent">Redes Sociais</h3>
             <div className="flex gap-4">
-              <a href="https://instagram.com/silvaalmeidaadv" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+              <a href="https://instagram.com/zcxpages" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="https://linkedin.com/company/silvaalmeidaadv" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
+              <a href="https://instagram.com/zcxpages" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-accent transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
